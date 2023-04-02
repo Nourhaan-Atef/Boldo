@@ -3,10 +3,13 @@ import statistics1 from "../../assets/Statistics1.png";
 import statistics2 from "../../assets/Statistics2.png";
 import statistics3 from "../../assets/Statistics3.png";
 import LogoWall from "../../assets/Logo Wall.png";
+import Services from "../Services/Services";
+import Contact from "../Contact/Contact";
+import Footer from "../../Components/Footer";
 
 const Home = () => {
   return (
-    <div className="md:px-32 px-10 bg-darkBlue lg:h-screen h-full">
+    <div className="lg:px-32 md:px-20 px-10 bg-darkBlue lg:h-screen h-full">
       <Navbar />
       <div className="flex flex-col items-center">
         <div className="flex lg:flex-row flex-col justify-between items-center pt-6">
@@ -19,7 +22,7 @@ const Home = () => {
               partnership. First mover advantage innovator success deployment
               non-disclosure.
             </p>
-            <div className="flex  gap-5 mt-5">
+            <div className="flex gap-5 mt-5">
               <button className="bg-green text-darkBlue font-bold text-lg leading-7 px-12 py-2 rounded-3xl">
                 Buy template
               </button>
@@ -42,6 +45,9 @@ const Home = () => {
           <img src={LogoWall} alt="Logo Wall" />
         </div>
       </div>
+      <Services />
+      <Contact />
+      <Footer />
     </div>
   );
 };
