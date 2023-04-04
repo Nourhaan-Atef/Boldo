@@ -11,26 +11,29 @@ const Services = () => {
   ];
   const cardsList = cards.map((card) => {
     return (
-      <div key={card.id} className="mt-10">
-        <div className="md:px-5 px-20">
-          <img src={card.img} alt="IMG" className="w-full" />
-        </div>
-        <div className="md:px-5 px-20">
-          <h3 className="pt-5 pb-3 font-normal text-2xl">{card.title}</h3>
-          <p className="pb-3 font-normal text-xl text-gray-500">
-            Learning curve network effects return on investment.
-          </p>
-        </div>
-        <div className="flex md:px-5 px-20 pt-5 gap-3 relative cursor-pointer">
-          <p className="font-bold text-xl text-darkBlue">Explore page</p>
-          <img src={arrow} alt="Arrow" />
-          <div className="absolute w-40 bg-darkBlue h-px -bottom-3"></div>
+      <div key={card.id}>
+        <div className="mt-10 px-10">
+          <div className="">
+            <img src={card.img} alt="IMG" className="w-full" />
+          </div>
+          <div className="">
+            <h3 className="pt-5 pb-3 font-normal text-2xl">{card.title}</h3>
+            <p className="pb-3 font-normal text-xl text-gray-500">
+              Learning curve network effects return on investment.
+            </p>
+          </div>
+          <div className="flex  pt-5 gap-3 relative cursor-pointer">
+            <p className="font-bold text-xl text-darkBlue">Explore page</p>
+            <img src={arrow} alt="Arrow" />
+            <div className="absolute w-40 bg-darkBlue h-px -bottom-3"></div>
+          </div>
         </div>
       </div>
     );
   });
+
   return (
-    <div className="py-20">
+    <div className="py-20 lg:px-32 md:px-20 px-10">
       <header className="flex flex-col justify-center items-center">
         <p className="font-OpenSans text-center text-xl text-gray-500 font-normal pb-5">
           Our Services

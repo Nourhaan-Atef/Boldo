@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 const Navbar = () => {
   return (
     <>
-      <div className="py-10 flex justify-between items-center">
+      <div className="py-10 flex justify-between items-center lg:px-32 md:px-20 px-10 bg-darkBlue">
         <div className="flex items-center gap-3 text-4xl text-white ">
           <img src={logo} alt="Logo" className="w-6" />
           <p className=" font-Manrope font-extrabold">Boldo</p>

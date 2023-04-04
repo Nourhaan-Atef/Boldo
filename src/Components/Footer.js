@@ -1,7 +1,7 @@
 import darkLogo from "../assets/darkLogo.png";
 const Footer = () => {
   return (
-    <div className="py-20 grid lg:grid-cols-2 gap-10">
+    <div className="py-20 grid lg:grid-cols-2 gap-10 lg:px-32 md:px-20 px-10">
       <div>
         <div className="flex items-center gap-3 text-4xl text-darkBlue ">
           <img src={darkLogo} alt="Logo" className="w-6" />
