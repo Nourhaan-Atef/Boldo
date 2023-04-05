@@ -6,7 +6,7 @@ const Section4 = () => {
     <div className="lg:px-32 md:px-20 px-10 pt-20 flex flex-col">
       <img src={image} alt="Img" />
       <div className="flex lg:flex-row flex-col justify-between py-16 gap-5">
-        <h4 className="font-Manrope font-normal text-4xl lg:w-5/12 leading-relaxed">
+        <h4 className="font-Manrope md:font-normal font-semibold md:text-4xl text-2xl lg:w-5/12 leading-relaxed">
           We connect our customers with the best, and help them keep up-and stay
           open.
         </h4>

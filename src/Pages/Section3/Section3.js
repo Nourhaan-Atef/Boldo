@@ -7,10 +7,10 @@ import check from "../../assets/check.png";
 
 const Section3 = () => {
   return (
-    <div className="flex flex-col py-10 lg:px-32 md:px-20 px-10">
+    <div className="flex flex-col py-10 md:px-10">
       <div className="grid lg:grid-cols-2  items-center md:gap-36 gap-10 md:mr-0 mr-20">
         <div className="flex  justify-center ">
-          <img src={connect1} alt="Connect1" />
+          <img src={connect1} alt="Connect1" className=""/>
         </div>
         <div className="font-Manrope flex flex-col  leading-tight">
           <h3 className="font-normal text-4xl pb-10 leading-tight">

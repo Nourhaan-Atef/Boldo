@@ -1,6 +1,6 @@
 import Contact from "../Contact/Contact";
 
-const Blog = () => {
+const About = () => {
   return (
     <div className="lg:px-32 md:px-20 px-10 py-10">
       <div>
@@ -19,4 +19,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default About;

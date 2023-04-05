@@ -2,6 +2,7 @@ import first from "../../assets/card1.png";
 import secand from "../../assets/card2.png";
 import third from "../../assets/card3.png";
 import arrow from "../../assets/arrow.svg";
+import Section3 from "../Section3/Section3";
 
 const Services = () => {
   const cards = [
@@ -12,7 +13,7 @@ const Services = () => {
   const cardsList = cards.map((card) => {
     return (
       <div key={card.id}>
-        <div className="mt-10 px-10">
+        <div className="mt-10 md:px-10">
           <div className="">
             <img src={card.img} alt="IMG" className="w-full" />
           </div>
@@ -45,6 +46,7 @@ const Services = () => {
       <div className="lg:flex lg:justify-between grid md:grid-cols-2 grid-cols-1 gap-5 py-20 font-OpenSans">
         {cardsList}
       </div>
+      <Section3 />
     </div>
   );
 };

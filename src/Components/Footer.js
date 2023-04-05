@@ -7,7 +7,7 @@ const Footer = () => {
           <img src={darkLogo} alt="Logo" className="w-6" />
           <p className=" font-Manrope font-extrabold">Boldo</p>
         </div>
-        <p className="font-OpenSans  text-base text-gray-500 py-10 w-2/3 leading-relaxed tracking-wider">
+        <p className="font-OpenSans  text-base text-gray-500 py-10 md:w-2/3 leading-relaxed tracking-wider">
           Social media validation business model canvas graphical user interface
           launch party creative facebook iPad twitter.
         </p>

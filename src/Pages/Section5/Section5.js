@@ -32,11 +32,11 @@ const Section5 = () => {
   ];
   const cardsList = cards.map((card) => {
     return (
-      <div key={card.id} className="bg-white rounded-2xl w-4/5 py-10 h-min">
-        <div className="px-10">
-          <p className="pb-3 font-normal text-2xl text-black">{card.content}</p>
+      <div key={card.id} className="bg-white rounded-2xl md:w-4/5 py-10 h-min">
+        <div className="md:px-10 px-5">
+          <p className="pb-3 font-normal md:text-2xl text-lg text-black">{card.content}</p>
           <div className="flex gap-2 py-2 w-full">
-            <img src={card.img} alt="IMG" className="w-14 h-14" />
+            <img src={card.img} alt="IMG" className="md:w-14 md:h-14 w-10 h-10" />
             <div className="flex flex-col ">
               <p className="font-bold font-OpenSans text-base text-darkBlue">
                 {card.name}
